@@ -22,5 +22,5 @@
     $result = pg_query($dbconn,$query) or die('Ошибка запроса: ' . pg_last_error());
     pg_close($dbconn);
 
-    header('Location: /app');
+    header('Location: /');
 ?>

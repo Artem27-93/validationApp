@@ -11,12 +11,12 @@
     $user = pg_fetch_assoc($result);
 
     if(!$user){
-        echo "Такой пароль не найден.<a href='/app'>попробуйте снова!</a>";
+        echo "Такой пароль не найден.<a href='/'>попробуйте снова!</a>";
 
         exit();
     }
 
     setcookie('user', $user['name'], time() + 60,"/");
-    header('Location: /app/index.php');
+    header('Location: /index.php');
     pg_close($dbconn);
 ?>
