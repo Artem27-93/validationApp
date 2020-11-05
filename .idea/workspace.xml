@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f61ca679-76b2-470a-a5b6-cb2028b250d0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +23,8 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../phppgadmin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
@@ -43,7 +48,7 @@
       <workItem from="1604243335122" duration="16969000" />
       <workItem from="1604342517447" duration="11119000" />
       <workItem from="1604431440663" duration="4112000" />
-      <workItem from="1604564191238" duration="7409000" />
+      <workItem from="1604564191238" duration="15414000" />
     </task>
     <servers />
   </component>
@@ -67,30 +72,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="352" y="57" key="#SSH_Configurations/0.0.1536.824@0.0.1536.824" timestamp="1604176458424" />
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604223638290">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604600176908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604223638290" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1604178105972">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604600176908" />
+    <state x="449" y="167" key="DUMP_DIALOG_DIMENSION_KEY" timestamp="1604599885922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604178105972" />
-    <state width="1024" height="23" key="GridCell.Tab.0.bottom" timestamp="1604577834469">
+    <state x="449" y="167" key="DUMP_DIALOG_DIMENSION_KEY/0.0.1536.824@0.0.1536.824" timestamp="1604599885922" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1604601230218">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="23" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604577834469" />
-    <state width="1024" height="23" key="GridCell.Tab.0.center" timestamp="1604577834469">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604601230218" />
+    <state width="1253" height="335" key="GridCell.Tab.0.bottom" timestamp="1604603401066">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="23" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604577834469" />
-    <state width="1024" height="23" key="GridCell.Tab.0.left" timestamp="1604577834469">
+    <state width="1253" height="335" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604603401066" />
+    <state width="1253" height="335" key="GridCell.Tab.0.center" timestamp="1604603401065">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="23" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604577834469" />
-    <state width="1024" height="23" key="GridCell.Tab.0.right" timestamp="1604577834469">
+    <state width="1253" height="335" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604603401065" />
+    <state width="1253" height="335" key="GridCell.Tab.0.left" timestamp="1604603401065">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="23" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604577834469" />
+    <state width="1253" height="335" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604603401065" />
+    <state width="1253" height="335" key="GridCell.Tab.0.right" timestamp="1604603401065">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1253" height="335" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604603401065" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1604225898101">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -99,10 +108,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1604343716734" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1604175969007">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1604599820768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604175969007" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604599820768" />
     <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1604225776970">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -111,10 +120,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1604068486715" />
-    <state x="434" y="132" width="708" height="453" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1604225971351">
+    <state x="668" y="273" width="337" height="384" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604599976724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="434" y="132" width="708" height="453" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1604225971351" />
+    <state x="668" y="273" width="337" height="384" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1536.824@0.0.1536.824" timestamp="1604599976724" />
+    <state x="502" y="260" width="708" height="453" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1604603336428">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="502" y="260" width="708" height="453" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1604603336428" />
+    <state x="478" y="11" width="702" height="801" key="find.popup" timestamp="1604603667639">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="11" width="702" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1604603667639" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1604072622250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
