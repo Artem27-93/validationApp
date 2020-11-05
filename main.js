@@ -76,7 +76,7 @@ function hideComponent(content,profile){
             data.forEach((item,index)=>{
                 console.log(item.Question);
                 $('.question')[index].append(item.Question);
-                $('#image').attr("alt", item.Path2File);
+                $('#image').attr("src", item.Path2File);
             })
         })
     })
