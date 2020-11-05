@@ -47,7 +47,7 @@
 
         </div>
             <?php else: ?>
-            <p>Привет <?=$_COOKIE['user']?>.Чтобы выйти, нажмите <a href=" /exit.php">здесь</a></p>
+            <p>Привет <?=$_COOKIE['user']?>.Чтобы выйти, нажмите <a href="exit.php">здесь</a></p>
 
 <!--   ----------------Home page----------------->
                 <div id="tabs">
