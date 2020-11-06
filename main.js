@@ -89,28 +89,28 @@ function hideComponent(content,profile){
 
 // выбор чекбоксов с правильным ответом
 $('#btnNext').on('click', function () {
-    var resultval='Y';
-    var num;
-    $('.question').each(function () {
-        num = $(this).attr('class').split(' ')[1];
-        if ($($(this).siblings('.check_no')).prop('checked') ) {
-           resultval = 'N';      
-       }
-  });
-    if(resultval=='Y'){
-        alert('Положительно');
-       }else{
-        alert('Негативно');
-       }
-    
-     $.getJSON('updateResult.php', {
-            res: resultval,
-            id: num
-        },function(data){
-            })
-        })
+	var resultval='Y';
+	var num;
+	$('.question').each(function () {
+		num = $(this).attr('class').split(' ')[1];
+		if ($($(this).siblings('.check_no')).prop('checked') ) {
+			resultval = 'N';
 
+			if(resultval=='Y'){
+				alert('Положительно');
+			}else{
+				alert('Негативно');
+			}
+
+			$.getJSON('updateResult.php', {
+				res: resultval,
+				id: num
+			},function(data){
+			});
+		}
+	});
 });
+
 
 // $('.checks').on('change', function () {
 //     if ( $('.check_yes').prop('checked') ) {
