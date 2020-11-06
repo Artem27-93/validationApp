@@ -83,7 +83,7 @@ function hideComponent(content,profile){
 
 // выбор чекбоксов с правильным ответом
 
-$('.check_yes').on('change', function () {
+$('.checks').on('change', function () {
     if ( $('.check_yes').prop('checked') ) {
         $('#btnNext').attr('disabled', false);
 
