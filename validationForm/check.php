@@ -20,7 +20,7 @@
         or die('Не удалось соединиться: ' . pg_last_error());
     $query = "INSERT INTO \"public\".\"Users\"(\"login\",\"name\",\"password\") VALUES ('$login','$name','$pass')";
     $result = pg_query($dbconn,$query) or die('Ошибка запроса: ' . pg_last_error());
-    pg_close($dbconn);
 
     header('Location: /index.php');
+    pg_close($dbconn);
 ?>
