@@ -107,6 +107,9 @@ $('#btnNext').on('click', function () {
 		res: resultval,
 		id: num
 	},function(data){
+	 setTimeout(function () {
+        location.reload();
+    }, 1000);
 		
 	});
 });
