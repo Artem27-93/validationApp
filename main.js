@@ -92,7 +92,7 @@ $('#btnNext').on('click', function () {
     var resultval='Y';
 
     $('.question').each(function () {
-        if (!$(this).siblings('.check_no').prop('checked') ) {
+        if ($($(this).siblings('.check_no')).prop('checked') ) {
            resultval = 'N';      
        }
   });
