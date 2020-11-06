@@ -54,20 +54,10 @@ function showTabsContent(b){
 
 // Запрос на сервер, для отображения количества заявок выбранной категории в очереди
 $.getJSON('getData.php',function(data){
-	$('.span')[0].append();
-	$('.span')[1].append();
-	$('.span')[2].append();
 
-
-for(let i=0; i<=comp.length;i++){
 	for(let j=0; j<=data.length;j++){
-		if($('.category')[i].innerText === data[j].Category){
-			$('.span')[i].append(data[j].count);
-		}else{
-			
-		}
+		$('.'+data[j].Category).append(data[j].count);
 	}
-}
 });
 
 // функция для сокрытия отображения категорий на странице
