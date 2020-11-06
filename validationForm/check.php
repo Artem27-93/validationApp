@@ -9,13 +9,13 @@ echo 1;
 
     if(mb_strlen($login) < 5 || mb_strlen($login) > 15){
         echo "Недопустимая длина логина";
-        exit();
+       die();
     } else if(mb_strlen($name) < 1 || mb_strlen($name) > 10){
         echo "Недопустимая длина имени";
-        exit();
+         die();
     } else if(mb_strlen($pass) < 4 || mb_strlen($pass) > 15) {
         echo "Недопустимая длина пароля(от 4 до 15 символов)";
-        exit();
+        die();
     }
 echo 2;
     $pass = md5($pass."gmbh"); // хеш пароля
