@@ -89,18 +89,18 @@
                                     <ol>
                                         <li>
                                             <span class="question"></span></br>
-                                            <input type="checkbox"  name="check" class="check_yes"><label for="check_yes">Yes</label>
-                                            <input type="checkbox" name="check" class="check_no"><label for="check_no">No</label>
+                                            <input type="checkbox"  name="check" class="check_yes checks"><label for="check_yes">Yes</label>
+                                            <input type="checkbox" name="check" class="check_no checks"><label for="check_no">No</label>
                                         </li>
                                         <li>
                                             <span class="question"></span></br>
-                                            <input type="checkbox" class="check_yes"><label for="check_yes">Yes</label>
-                                            <input type="checkbox" class="check_no"><label for="check_no">No</label>
+                                            <input type="checkbox" class="check_yes checks"><label for="check_yes">Yes</label>
+                                            <input type="checkbox" class="check_no checks"><label for="check_no">No</label>
                                         </li>
                                         <li>
                                             <span class="question"></span></br>
-                                            <input type="checkbox" class="check_yes"><label for="check_yes">Yes</label>
-                                            <input type="checkbox" class="check_no"><label for="check_no">No</label>
+                                            <input type="checkbox" class="check_yes checks"><label for="check_yes">Yes</label>
+                                            <input type="checkbox" class="check_no checks"><label for="check_no">No</label>
                                         </li>
                                     </ol>
                                 </div>
