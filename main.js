@@ -91,13 +91,13 @@ function hideComponent(content,profile){
 $('#btnNext').on('click', function () {
 	var resultval='Y';
 	var num;
-	$('.question').each(function () {
-		num = $(this).attr('class').split(' ')[1];
-		if ($($(this).siblings('.check_no')).prop('checked') ) {
+	$('.check_no').each(function () {		
+		if ($(this).prop('checked') ) {
 			resultval = 'N';
 		}
 		
 	});
+	num = $($('.question')[0]).attr('class').split(' ')[1];
 	if(resultval=='Y'){
 		alert('Положительно');
 	}else{
