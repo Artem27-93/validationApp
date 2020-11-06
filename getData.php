@@ -6,9 +6,11 @@ from \"Queue\"
 where \"isValid?\" is null
 group by \"Category\";";
 $result = pg_query($dbconn,$query);
-$res = pg_fetch_assoc($result);
-var_dump($res);
-
-echo json_encode($res);
+$data = array();
+while($row = pg_fetch_assoc($result)) {
+    $data[] = $row;
+}
 pg_close($dbconn);
+
+echo json_encode($data);
 ?>
