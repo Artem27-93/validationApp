@@ -88,7 +88,7 @@ function hideComponent(content,profile){
     })
 
 // выбор чекбоксов с правильным ответом
-$('.btnNext').on('click', function () {
+$('#btnNext').on('click', function () {
     var resultval='Y';
 
     $('.question').each(function () {
