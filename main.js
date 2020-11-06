@@ -107,6 +107,7 @@ $('#btnNext').on('click', function () {
 		res: resultval,
 		id: num
 	},function(data){
+		
 	});
 });
 
