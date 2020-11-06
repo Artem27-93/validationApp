@@ -7,6 +7,7 @@ where \"isValid?\" is null
 group by \"Category\";";
 $result = pg_query($dbconn,$query);
 $res = pg_fetch_assoc($result);
+var_dump($res);
 
 echo json_encode($res);
 pg_close($dbconn);
