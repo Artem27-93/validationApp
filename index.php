@@ -62,21 +62,21 @@
                             <div class="component">
                                 <h3 class="category">ClientPH</h3>
                                 <div class="component_ins">
-                                    <p>Очередь - <span class="span"></span></p>
+                                    <p>Очередь - <span class="ClientPH"></span></p>
                                     <button class="btn">Start</button>
                                 </div>
                             </div>
                             <div class="component">
                                 <h3 class="category">DOC</h3>
                                 <div class="component_ins">
-                                    <p>Очередь - <span class="span"></span></p>
+                                    <p>Очередь - <span class="DOC"></span></p>
                                     <button class="btn">Start</button>
                                 </div>
                             </div>
                             <div class="component">
                                 <h3 class="category">Other</h3>
                                 <div class="component_ins">
-                                    <p>Очередь - <span class="span"></span></p>
+                                    <p>Очередь - <span class="Other"></span></p>
                                     <button class="btn">Start</button>
                                 </div>
                             </div>
