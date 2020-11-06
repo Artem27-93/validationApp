@@ -75,8 +75,8 @@ function hideComponent(content,profile){
         $.getJSON('getTicket.php',function(data){
             data.forEach((item,index)=>{
                 console.log(item.Question);
-                $('.question')[index].append(item.Question);
-                $('.question')[index].addClass(item.Question);
+                $($('.question')[index]).append(item.Question);
+                 $($('.question')[index]).addClass(item.Question);
                 $('#image').attr("src", item.Path2File);
                  if(item.CorrectVariant==1){
                   $($('.question').siblings('.check_yes')[index]).removeClass('check_yes').addClass('yes'); 
