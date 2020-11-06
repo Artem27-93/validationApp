@@ -76,7 +76,7 @@ function hideComponent(content,profile){
             data.forEach((item,index)=>{
                 console.log(item.Question);
                 $($('.question')[index]).append(item.Question);
-                 $($('.question')[index]).addClass(item.Question);
+                 $($('.question')[index]).addClass(item.id);
                 $('#image').attr("src", item.Path2File);
                  if(item.CorrectVariant==1){
                   $($('.question').siblings('.check_yes')[index]).removeClass('check_yes').addClass('yes'); 
