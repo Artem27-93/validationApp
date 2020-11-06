@@ -104,7 +104,7 @@
                                         </li>
                                     </ol>
                                 </div>
-                                <button disabled onclick="document.location='index.php'" type="submit" id ="btnNext" class="btn-success"  >Next</button>
+                                <button  onclick="" type="submit" id ="btnNext" class="btn-success"  >Next</button>
                                 <h2 class="title_category"></h2>
 
                             </div>
