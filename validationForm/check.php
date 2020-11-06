@@ -7,13 +7,14 @@ echo 0;
     $pass = filter_var(trim($_POST['pass']),FILTER_SANITIZE_STRING);
 echo 1;
 
-    if(mb_strlen($login) < 5 || mb_strlen($login) > 15){
+    if(strlen($login) < 5 || strlen($login) > 15){
         echo "Недопустимая длина логина";
+
        die();
-    } else if(mb_strlen($name) < 1 || mb_strlen($name) > 10){
+    } else if(strlen($name) < 1 || strlen($name) > 10){
         echo "Недопустимая длина имени";
          die();
-    } else if(mb_strlen($pass) < 4 || mb_strlen($pass) > 15) {
+    } else if(strlen($pass) < 4 || strlen($pass) > 15) {
         echo "Недопустимая длина пароля(от 4 до 15 символов)";
         die();
     }
