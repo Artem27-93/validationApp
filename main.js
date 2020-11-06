@@ -78,7 +78,7 @@ function hideComponent(content,profile){
                 $($('.question')[index]).append(item.Question);
                  $($('.question')[index]).addClass(item.id);
                 $('#image').attr("src", item.Path2File);
-                 if(item.CorrectVariant==1){
+                 if(item.CorrectVariant==0){
                   $($('.question').siblings('.check_yes')[index]).removeClass('check_yes').addClass('yes'); 
                   $($('.question').siblings('.check_no')[index]).removeClass('check_no').addClass('check_yes'); 
                   $($('.question').siblings('.yes')[index]).removeClass('yes').addClass('check_yes'); 
