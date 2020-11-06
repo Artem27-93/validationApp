@@ -95,19 +95,17 @@ $('#btnNext').on('click', function () {
 		num = $(this).attr('class').split(' ')[1];
 		if ($($(this).siblings('.check_no')).prop('checked') ) {
 			resultval = 'N';
-
-			if(resultval=='Y'){
-				alert('Положительно');
-			}else{
-				alert('Негативно');
-			}
-
-			$.getJSON('updateResult.php', {
-				res: resultval,
-				id: num
-			},function(data){
-			});
 		}
+		if(resultval=='Y'){
+			alert('Положительно');
+		}else{
+			alert('Негативно');
+		}
+		$.getJSON('updateResult.php', {
+			res: resultval,
+			id: num
+		},function(data){
+		});
 	});
 });
 
