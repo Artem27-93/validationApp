@@ -55,11 +55,13 @@ function showTabsContent(b){
 // Запрос на сервер, для отображения количества заявок выбранной категории в очереди
 $.getJSON('getData.php',function(data){
 for(let i=0; i<=comp.length;i++){
-    if($('.category')[i].innerText === data.Category){
-        $('.span')[i].append(data.count);
-    }else{
-        $('.span')[i].append();
-    }
+	for(let j=0; j<=data.length;j++){
+		if($('.category')[i].innerText === data[j].Category){
+			$('.span')[i].append(data[j].count);
+		}else{
+			$('.span')[i].append();
+		}
+	}
 }
 });
 
