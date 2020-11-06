@@ -76,6 +76,12 @@ function hideComponent(content,profile){
             data.forEach((item,index)=>{
                 console.log(item.Question);
                 $('.question')[index].append(item.Question);
+                if(item.CorrectVariant==1){
+                  $('.question')[index].siblings('.check_yes').removeClass('check_yes').addClass('yes'); 
+                  $('.question')[index].siblings('.check_no').removeClass('check_no').addClass('check_yes'); 
+                  $('.question')[index].siblings('.yes').removeClass('yes').addClass('check_yes'); 
+                }
+                $('.question')[index].addClass(item.Question);
                 $('#image').attr("src", item.Path2File);
             })
         })
