@@ -88,15 +88,27 @@ function hideComponent(content,profile){
     })
 
 // выбор чекбоксов с правильным ответом
+$('.btnNext').on('click', function () {
+    var resultval='Y';
 
-$('.checks').on('change', function () {
-    if ( $('.check_yes').prop('checked') ) {
-        $('#btnNext').attr('disabled', false);
-
-    } else {
-        $('#btnNext').attr('disabled', true);
-    }
+    $('.question').each(function () {
+        if (!$(this).siblings('.check_no').prop('checked') ) {
+           resultval = 'N';      
+       }
+  });
 });
+
+// $('.checks').on('change', function () {
+//     if ( $('.check_yes').prop('checked') ) {
+//         $('#btnNext').attr('disabled', false);
+
+//     } else {
+//         $('#btnNext').attr('disabled', true);
+//     }
+// });
+
+
+
 
 
 
