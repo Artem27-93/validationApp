@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+
 echo 0;
     $login = filter_var(trim($_POST['login']),FILTER_SANITIZE_STRING);
     $name = filter_var(trim($_POST['name']),FILTER_SANITIZE_STRING);
